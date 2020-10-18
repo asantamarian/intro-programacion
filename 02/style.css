@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #282828;
+}
+
+.calculator{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+}
+.pad{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex: 1 0 calc(25% - 20px);
+    background: radial-gradient(#e18174,#d15746);
+    border-radius: 10px;
+}
+.pad-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex: 1 0 calc(50% - 20px);
+    background: radial-gradient(#e18174,#d15746);
+    border-radius: 10px;
+}
+.display{
+    display:flex;
+    justify-content: right;
+    align-items: right;
+    margin: 10px;
+    flex: 1 0 calc(100% - 20px);
+    background: radial-gradient(#171717,#060606);
+    border-radius: 10px;
+    color: floralwhite;
+    font-size: 50;
+}
